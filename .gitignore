@@ -1,0 +1,53 @@
+# === Fichiers Python compilés ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Environnements virtuels ===
+.env/
+.venv/
+env/
+venv/
+
+# === Fichiers Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Configs/Logs temporaires ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Fichiers système ===
+.DS_Store
+Thumbs.db
+
+# === Données sensibles ou temporaires ===
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.h5
+*.json
+*.pkl
+*.joblib
+
+# === Outputs de modèles / figures ===
+outputs/
+models/
+figures/
+checkpoints/
+
+# === Autres ===
+*.env
+.envrc
